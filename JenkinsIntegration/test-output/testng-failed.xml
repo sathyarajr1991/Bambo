@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.java.base.BaseTest">
+        <methods>
+          <include name="destroyBrowser"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- test.java.base.BaseTest -->
+      <class name="test.java.sample.myTest">
+        <methods>
+          <include name="myTestExample1"/>
+        </methods>
+      </class> <!-- test.java.sample.myTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
